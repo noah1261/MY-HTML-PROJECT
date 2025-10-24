@@ -1,0 +1,19 @@
+# Ignore build directories
+build/
+dist/
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+
+# Ignore OS-specific files
+Thumbs.db
+
+# Ignore any temporary or backup files
+*~
