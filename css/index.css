@@ -1,0 +1,120 @@
+/* למורה היקרה מאד!!! */
+/* הינו בטוחות שניתן להגיש את הפרויקט ליום שלישי  */
+/* רגע האחרון לכן העיצוב הינו תוצרת של ה */
+/* ...מקוות שיהיה מהנה להכנס לאתר שלנו למרות זאת */
+/*(עד כמה שניתן...) תודה רבה ובדיקה מהנה */
+/* נ.ב. */
+/* אנו ממש נהנות בשיעורים של המורה גם בגלל התוכן אבל באמת בזכות המורה */
+/* נ.ב. */
+/*index אנחנו לא יודעות למה אבל ברספונסיבי של ה */
+/* יש לנו יותר גלילה מהמבוקש... */
+body{
+    margin: 0%;
+    width: 100%;
+    direction: rtl;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3 20%) 40%;
+    grid-template-rows:  100vh 15vh 50vh 50vh;
+    grid-template-areas:"h  h  h  h"
+                        "ar a  a  a  "
+                        "ar s1 s2 s3 "
+                        "ar f  f  f  "
+;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+h1{
+    font-size: 100px;
+    background-color: rgba(240, 248, 255, 0.441);
+}
+h3{
+   font-size: 70px;
+   background-color:rgba(240, 248, 255, 0.336);
+}
+
+/* לכל החלק העליון של האתר */
+header{
+    grid-area: h;
+ background-image :url(../video&pick/__צילום\ מסך_10-12-2024_19537_www.saveadate.co.il.jpeg);
+ background-position: center;
+ background-size: cover;
+}
+
+aside {
+    grid-area: a;
+    background-color: rgb(230, 196, 134);
+    color: black;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article{
+    padding:  3%;
+    grid-area: ar;
+    background-color: rgba(4, 4, 4, 0.997);
+    color:rgb(230, 196, 134) ;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    background-color:rgb(230, 196, 134);
+    align-items: center; 
+    align-content: center;
+}
+/* סלקטור מתקדם */
+section:first-child{
+    grid-area: s1;
+}
+
+/* כנ"ל */
+section:nth-child(2){
+grid-area: s2;
+}
+
+/* כנ"ל */
+section:nth-child(3){
+    grid-area: s3;
+ }
+
+ footer{
+ border: 15px  solid rgb(230, 196, 134);
+    color:rgb(230, 196, 134) ;
+    grid-area: f;
+    background-color: black;
+ }
+ footer button{
+    border-radius: 8px ;
+    background-color: rgb(230, 196, 134);
+ }
+ .v{
+    background-color: black;
+    color: rgb(230, 196, 134);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin-top: 0px; */
+    margin: 4%;
+ }
+ @media(max-width:600px) {
+  h3,h1:nth-child(2){
+    font-size: xx-large;
+  }
+body{
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh 70vh 50vh 25vh;
+    grid-template-areas:"h "
+                        "ar  "
+                        "f "
+                        "a  "
+;
+}
+section{
+    visibility: hidden;
+}
+aside h6{
+    font-size:small;
+}
+ }
+
+    

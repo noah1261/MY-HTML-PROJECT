@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הרזומה שלך</title>
+    <link rel="stylesheet" href="../css/form.css">
+   <link rel="stylesheet" href="../css/button.css">
+</head>
+<body>
+
+    <!-- תפריט -->
+    <nav>
+        <button class="b"><a href="./index.html#use">עזרה</a></button>
+        <button class="b"><a href="./index.html#succes">הצלחות קודמות</a></button>
+        <button class="b"><a href="./index.html">לדף הבית</a></button>
+        <button class="b"><a href="./table.html">השדכנים שלנו</a></button>
+        <button class="b"><a href="../video&pick/צילום מסך 2024-12-18 223046.png">לחיפוש בחורה
+        </a></button>
+        <button class="b"><a href="./flex.html">לחיפוש בחור</a></button>
+    </nav><br>
+
+    <!-- טופס -->
+    <form action="./flexend.html">
+            <legend ><h1>פרטים אישיים</h1></legend><br>
+            <label>מין</label><br>
+            <select class="f">
+                <option>זכר</option>
+                <option>נקבה</option>
+            </select><br>
+         <label>שם פרטי ומשפחה</label><br>
+         <input class="f" ><br>
+         <label>ת"ז</label><br>
+         <!-- בדיקת תקינות:1 שדה חובה -->
+         <!-- ןכן-2 חייב להכניס 9 ספרות -->
+         <input class="f" type="text" required minlength="9" maxlength="9"><br>
+         <label>גיל</label><br>
+         <!-- בדיקת תקינות -->
+         <input class="f" type="number" placeholder=" בן כמה אתה" min="19" max="99" step="0.5"><br>
+         <label>מוסד לימודים</label><br>
+         <input class="f" placeholder="שם ישיבה או סמינר"><br>
+         <details>
+            <summary>
+         <label>סגנון</label><br>
+        </summary>
+            <label for="r1">צדיק וטוב לו</label>
+            <input class="f" type="radio"id="r1"name="type"><br>
+            <label for="r2">ראש פתוח</label>
+            <input class="f" type="radio"id="r2"name="type"><br>
+            <label for="r3">קלאסי</label>
+            <input class="f" type="radio"id="r3"name="type"><br>
+            <label for="r4">פרומער</label>
+            <input class="f"  type="radio"id="r4"  name="type"><br>
+        </details><br>
+    <input  class="f2"  type="reset" value="מלא מחדש"><br>
+    <input  class="f2" type="submit"><br>
+    <h3>טופס זה נכתב בלשון זכר מטעמי נוחות בלבד</h3><br>
+    </form>
+</body>
+</html>

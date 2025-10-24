@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    text-align: center;
+    direction: rtl;
+    background-color: rgb(5, 5, 5);
+    color: rgb(230, 196, 134);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+.i{
+  width: 24%;
+  height: 50vh;
+  /* חדש-מטשטש את התמונה */
+    filter: blur(8px);
+    display: block;
+}
+/* w3 העתקנו */
+/* כשעומדים על התמונה נהית מסגרת לה ולכיתוב שמתחתיה */
+div.gallery {
+    border: 5px solid #070707 ;
+  }
+  
+  div.gallery:hover {
+    border: 10px solid rgb(230, 196, 134);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    /* padding: 15px; */
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  /* w3העתקנו מ*/
+  /* כשעומדים על תמונה היא מתכהה, ומופיע מעליה כיתוב בתוך תיבה*/
+  .container {
+    position: relative;
+    width: 24%;
+  }
+  .image {
+    width: 24%;
+    height: 50vh;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+  }
+ 
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #060606;
+    color: rgb(230, 196, 134);
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px 80px;
+  }
+  @media (max-width:600px) {
+   body{
+    padding: 3%;
+   }
+   /* מקטין את הקונטינר */
+   .container{
+    width: 47%;
+   }
+  }
+  

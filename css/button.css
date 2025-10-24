@@ -1,0 +1,57 @@
+
+nav{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    justify-self: center;
+    overflow:hidden;
+     /* justify-content: space-around; */
+}
+    /* עיצוב לכפתורים */
+button{
+    width: auto;
+   background-color: rgba(21, 24, 24, 0.934);
+    }
+ 
+
+nav a {
+    /* כדי שיעמדו למעלה בשורה אחת */
+    /* display: flex;
+    float: right; */
+    color: rgb(230, 196, 134);
+    text-align: center;
+    /* שלא יהיה קו מתחת */
+    text-decoration: none;
+   font-size: xx-large;
+}
+
+
+@media(max-width:600px) {
+
+    a{
+        width: 100%;
+    }
+    .b{
+        width: 100%;
+    }
+    nav {
+       
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    /* יש שינוי משמעותי רק במסך קטן!!! */
+    /* כשעוברים על הכפתורים משתנה הצבע */
+    /* חחחחחחחחחחחחח */
+    .b{
+        background-color: rgba(21, 24, 24, 0.553);
+    }
+    .b:hover{
+        background-color: #f7f1f5;
+    }
+    nav a:hover {
+        color: #ef8ab8;
+    } 
+}

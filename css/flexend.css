@@ -1,0 +1,15 @@
+body{
+    background-image: url(../video&pick/kulululu.jpg);
+    background-size: cover;
+    color:gold;
+    text-align: center;
+    direction: rtl;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    @media (max-width:600px) {
+        body{
+            font-size:smaller;
+        }   
+    }
+    

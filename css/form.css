@@ -1,0 +1,56 @@
+
+body{
+   background-image: url(../video&pick/טופס.webp);
+    direction: rtl;
+    align-items: center;
+    font-size: 30 px;
+    width: 90%;
+    height: 100vh;
+    /* שוליים */
+    margin: 5%;
+}
+form{
+    text-align: center;
+}
+
+
+/* class  -של בל התגיות חוץ מתגיות*/
+/* submit & reset  */
+.f{
+width: 70%;
+padding: 12px 20px;
+box-sizing: border-box;
+color:rgb(230, 196, 134) ;
+   background-color:black;
+}
+
+input::placeholder{
+color: rgb(230, 196, 134);
+}
+
+/* class  של תגיות*/
+/* submit & reset  */
+.f2{
+    width: 80%;
+    background-color: rgb(230, 196, 134);
+    color:black ;
+    padding: 12px 20px;
+}
+
+/*submit & reset כשהוא עובר על */
+/* מחליף לצבעים ההפוכים */
+.f2:hover{
+    background-color: black;
+color: rgb(230, 196, 134);
+}
+
+h1,h3{
+    color: #030303;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration-color: black;
+}
+
+@media(max-width:600px) {
+ 
+}

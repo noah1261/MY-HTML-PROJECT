@@ -1,0 +1,38 @@
+
+body{
+    width: 100%;
+    height: 90vh;
+    /* תמונה כרקע */
+    background-image: url(../video&pick/לחיים4.jpg);
+    background-position: center;
+     /*חדש! לא נחשב כחדש אבל גם  */
+    /* הכפלת התמונה */
+    background-repeat:repeat;
+    background-size: contain;
+    color:#060606 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+    border: solid black 13px ;
+    font-size: x-large;
+    background-color: rgba(240, 248, 255, 0.542);
+}
+tr,td{
+    border: solid black 3px;
+}
+h1{
+    background-color: rgba(240, 248, 255, 0.542);
+    font-size: 50px;
+}
+@media (max-width:600px) {
+    /* שינוי גודל הכתב */
+    table{
+      font-size:medium;
+    }
+    
+}
